@@ -14,7 +14,7 @@ app.get('/testFind', function (req, res) {
     if (err) return res.error(err);
     console.log(kittens);
     res.json(kittens);
-  
+
   });
 });
 
